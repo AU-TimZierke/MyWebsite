@@ -1,0 +1,51 @@
+body{
+  background-color: aqua;
+}
+
+h1{
+  color: red;
+  font-family: "Gochi Hand", cursive;
+  font-size: 50px;
+  text-shadow: 3px 3px 3px black;
+}
+
+p1{
+  color: blue;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: bisque;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li{
+  float: left;
+  width: 25%;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+.active{
+  background-color: #4CAF50;
+}
+
+.Paragraph2{
+  color: green;
+  
+}
